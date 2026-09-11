@@ -43,7 +43,3 @@ The tool writes presets to OrcaSlicer's user folder:
 | Linux   | `~/.config/OrcaSlicer/user/<user>/filament/` |
 
 `<user>` is `default` when you aren't signed in to OrcaSlicer. App settings are stored in `~/.filament_profile_tool.json`.
-
-## License
-
-<!-- Add a license, e.g. MIT -->
