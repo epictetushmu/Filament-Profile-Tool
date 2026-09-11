@@ -1,23 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Filament Profile Tool
-=====================
-Κεντρική βιβλιοθήκη ρυθμίσεων filament με συγχρονισμό στο OrcaSlicer.
 
-- Κάθε filament αποθηκεύεται ως ξεχωριστό .json στον φάκελο βιβλιοθήκης
-  (τοπικός φάκελος ή κοινόχρηστος φάκελος στον server).
-- Με ένα κλικ τα προφίλ γράφονται ως "User presets" στον φάκελο του OrcaSlicer.
-- Γίνεται και το αντίστροφο: εισαγωγή υπαρχόντων presets από το OrcaSlicer.
-- Κρατάει ιστορικό αλλαγών (φάκελος .history μέσα στη βιβλιοθήκη).
-
-Χρήση:
-    python filament_tool.py                  ανοίγει το UI
-    python filament_tool.py --sync           στέλνει όλη τη βιβλιοθήκη στο OrcaSlicer
-    python filament_tool.py --sync --launch  ...και μετά ανοίγει το OrcaSlicer
-
-Απαιτήσεις: Python 3.8+ με Tkinter. Καμία εξωτερική βιβλιοθήκη.
-"""
 from __future__ import annotations
 
 import argparse
